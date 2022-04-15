@@ -9,6 +9,7 @@ const reverseString = function(phrase) {
     return revWords
 };
 
+// TOP solution // return string.split('').reverse().join('');
 
 // Do not edit below this line
 module.exports = reverseString;
