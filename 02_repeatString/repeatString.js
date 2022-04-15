@@ -1,4 +1,11 @@
-const repeatString = function() {
+const repeatString = function(phrase, count) {
+    if (count < 0) return 'ERROR';
+    string = '';
+    for (let i = 0; i < count; i++) {
+        string += phrase;
+    }
+
+    return string
 
 };
 
