@@ -5,8 +5,7 @@ const ftoc = function(degree) {;
 
 const ctof = function(degree) {
     return +(degree * (9 / 5) + 32).toFixed(1)
-
-    // TOP Solution // return Math.round(((c * 9/5) + 32) * 10) / 10; 
+        // TOP Solution // return Math.round(((c * 9/5) + 32) * 10) / 10; 
 };
 
 // Do not edit below this line
