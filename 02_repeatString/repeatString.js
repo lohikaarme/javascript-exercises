@@ -1,13 +1,9 @@
-const repeatString = function(phrase, count) {
-    if (count < 0) return 'ERROR';
-    string = '';
-    for (let i = 0; i < count; i++) {
-        string += phrase;
-    }
-
-    return string
-
+let repeatString = (string, n) => {
+    if(n> 0) return string.repeat(n);
+    else if (n==0) return '';
+    else return 'ERROR';
 };
+
 
 // Do not edit below this line
 module.exports = repeatString;
