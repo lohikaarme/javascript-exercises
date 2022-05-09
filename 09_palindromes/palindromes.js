@@ -1,6 +1,7 @@
-const palindromes = function () {
+let palindromes = (string) => prepString(string) === revTrimString(string);
 
-};
+let revTrimString = (string) => prepString(string).split('').reverse().join('');
 
-// Do not edit below this line
+let prepString = (string) => string.toLowerCase().replace(/\W/g,'');
+
 module.exports = palindromes;
