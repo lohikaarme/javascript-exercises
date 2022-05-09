@@ -1,6 +1,6 @@
-let palindromes = (string) => prepString(string) === revTrimString(string);
+let palindromes = (string) => prepString(string) === revString(string);
 
-let revTrimString = (string) => prepString(string).split('').reverse().join('');
+let revString = (string) => prepString(string).split('').reverse().join('');
 
 let prepString = (string) => string.toLowerCase().replace(/\W/g,'');
 
