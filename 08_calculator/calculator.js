@@ -34,9 +34,6 @@ let factorial = (arg) => {
   return total
 }
 
-// let factorial = (args) => args.reduce((total, current) => {return })
-
-// Do not edit below this line
 module.exports = {
   add,
   subtract,
