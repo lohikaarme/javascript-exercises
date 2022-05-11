@@ -12,7 +12,9 @@ let subtract = (a, b) => a - b;
   // return total
   // };
   
-let sum = (args) => args.reduce((total, current) => {return total + current}, 0)
+let sum = (args) => args.reduce(
+  (total, current) => total + current
+  , 0);
   
 // let multiply = (args) => {
   //   let total = 1;
@@ -20,7 +22,9 @@ let sum = (args) => args.reduce((total, current) => {return total + current}, 0)
   //   return total
   // };
 
-let multiply = (args) => args.reduce((total, current) => {return total * current}, 1)
+let multiply = (args) => args.reduce(
+  (total, current) => total * current
+  , 1);
 
 // let power = (...args) => args[0] ** args[1];
 
